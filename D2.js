@@ -111,13 +111,6 @@ let val3 = 1230;
 
 let decrescente = [0, 0, 0];
 
-// if (val1 > val2 && val3 < val2) {
-//   console.log(val1, val2, val3);
-// } else if (val2 > val1 && val3 < val1) {
-//   console.log(val2, val1, val3);
-// } else {
-// }
-
 if (val1 > val2 && val1 > val3 && val2 > val3) {
   decrescente[0] = val1;
   decrescente[1] = val2;
@@ -174,17 +167,17 @@ if (cosa % 2 === 0) {
   console.log("il numero è dispari");
 }
 
-/* ESERCIZIO 10
-  Modifica la logica del seguente algoritmo in modo che mostri in console il messaggio corretto in ogni circostanza.
-  let val = 7
-  if (val < 10) {
-      console.log("Meno di 10");
-    } else if (val < 5) {
-      console.log("Meno di 5");
-    } else {
-      console.log("Uguale a 10 o maggiore");
-    }
-*/
+//  ESERCIZIO 10
+//   Modifica la logica del seguente algoritmo in modo che mostri in console il messaggio corretto in ogni circostanza.
+
+let val = 4;
+if (val < 10 && val > 5) {
+  console.log("Meno di 10");
+} else if (val < 5) {
+  console.log("Meno di 5");
+} else {
+  console.log("Uguale a 10 o maggiore");
+}
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
