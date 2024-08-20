@@ -220,7 +220,9 @@ console.log(me);
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-console.log(me);
+const meme = structuredClone(me);
+meme.skills = ["javascript", "html"];
+console.log(meme);
 
 /* ESERCIZIO 14
   Scrivi del codice per creare un array inizialmente vuoto. Riempilo successivamente con i numeri da 1 a 10.
